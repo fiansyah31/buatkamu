@@ -40,6 +40,21 @@
 .btn:hover {
     background-color: #b339d8;
 }
+.btn-two {
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: 0px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #d23dff;
+    cursor: pointer;
+    position: relative;
+    transition: .5s;
+    margin-left: 20px;
+}
+.btn-two:hover {
+    background-color: #b339d8;
+}
 .textBox{
     font-size: 20px;
     color: #111;

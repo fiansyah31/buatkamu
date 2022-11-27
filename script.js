@@ -42,13 +42,16 @@ function sectionTwo(){
     buttonIya.innerText = 'Sayang';
 
     const buttonNo = document.createElement('button');
-    buttonNo.classList.add('btn');
+    buttonNo.classList.add('btn-two');
     buttonNo.innerText = 'Enggak';
 
     buttonNo.addEventListener('mouseover', function() {
-     buttonNo.style.left = `${Math.ceil(Math.random() * 90)}%`;
-     buttonNo.style.top = `${Math.ceil(Math.random() * 90)}%`;
-
+        buttonNo.style.left = `${Math.ceil(Math.random() * 90)}%`;
+        buttonNo.style.top = `${Math.ceil(Math.random() * 90)}%`;
+    });
+    buttonNo.addEventListener('click', function() {
+        alert('Yahhh, kamu gak sayang aku:(');
+        location.href='index.html';
     })
     buttonIya.addEventListener('click', function() {
         sectionThree();
@@ -77,13 +80,16 @@ function sectionThree(){
     buttonIya.innerText = 'Cinta';
 
     const buttonNo = document.createElement('button');
-    buttonNo.classList.add('btn');
+    buttonNo.classList.add('btn-two');
     buttonNo.innerText = 'Enggak';
 
     buttonNo.addEventListener('mouseover', function() {
      buttonNo.style.left = `${Math.ceil(Math.random() * 90)}%`;
      buttonNo.style.top = `${Math.ceil(Math.random() * 90)}%`;
-
+    });
+    buttonNo.addEventListener('click', function() {
+        alert('Yahhh, kamu gak cinta aku:(');
+        location.href='index.html';
     })
     buttonIya.addEventListener('click', function() {
         location.href="https://wa.link/10lt4e";
@@ -97,3 +103,4 @@ function sectionThree(){
         box
     );
 }
+
